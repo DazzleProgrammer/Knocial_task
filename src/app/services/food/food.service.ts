@@ -1,0 +1,147 @@
+import { Injectable } from '@angular/core';
+import { Foods } from 'src/app/shared/models/food';
+@Injectable({
+  providedIn: 'root'
+})
+export class FoodService {
+
+  constructor() { }
+
+  getAll():Foods[]{
+    return [
+      {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: true,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/1.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/2.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/3.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/4.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/5.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/6.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/7.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/8.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/9.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/14.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/11.jpg',
+      tags: ['FastFood','Hamburger'],
+    },
+    {
+      id: 1,
+      name:'Pizza Perreroni',
+      cookTime: '10-20',
+      price: 10,
+      favorite: false,
+      origins: ['italy'],
+      stars: 4.5,
+      imageUrl: '/assets/12.jpg',
+      tags: ['FastFood','Hamburger'],
+    }
+      
+    ];
+  }
+}

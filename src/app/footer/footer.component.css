@@ -1,0 +1,42 @@
+footer{
+    background-color:rgb(128, 22, 128);
+    padding: 0;
+    color: white;
+    /* border-bottom: 1px solid rgb(128, 22, 128); */
+    font-family: sans-serif;
+}
+.container{ 
+    display: flex;
+    justify-content: space-around;
+    
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+    font-size: 0.9rem;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    padding: 0.5em;
+} 
+
+li:hover{
+    color: rgb(12, 139, 185);
+    cursor: pointer;
+}
+
+.copyright{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 139, 185);
+}
